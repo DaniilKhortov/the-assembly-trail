@@ -7,8 +7,8 @@
 
 ### Tech Stack:
 * ![Assembly](https://img.shields.io/badge/Assembly_MASM-%23000000.svg?style=for-the-badge&logo=assembly&logoColor=white)
-* ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
 * ![WPF](https://img.shields.io/badge/WPF-%23512BD4.svg?style=for-the-badge&logo=dotnet&logoColor=white)
+* ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
 
 ### Core Logic & Game Events (MASM):
 * Programmed room-specific events and interactions using x86 Assembly (MASM).
