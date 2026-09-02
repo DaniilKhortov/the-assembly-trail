@@ -1,4 +1,4 @@
-# Nostromo Escape (The Assembly Trail)
+# Nostromo Escape 
 
 > **Note:** This repository is a fork of a university team project — a survival game inspired by "Alien". 
 > My primary responsibilities included **low-level game event programming in MASM** and developing the **graphical user interface (GUI) using WPF**.
@@ -21,3 +21,4 @@
 ---
 
 ## Original Project Overview
+
