@@ -20,7 +20,7 @@
 
 ---
 
-## Project Overview
+## Original Project Overview
 Nostromo Escape is a survival text game, where player must escape from the ship via finding 3 fuel units and evacuating through the escape pod. However, player is not alone on ship. Alien is folowing through out the map. Player must avoid any kontakt with it at any cost.
 
 ### Features  
