@@ -190,6 +190,7 @@
                 </TextBox.RenderTransform>
             </TextBox>
             <TextBox x:Name="InputTextBox"
+                KeyDown="InputTextBox_KeyDown"         
                 Width="262"
                 Height="156"
                 Background="Black"

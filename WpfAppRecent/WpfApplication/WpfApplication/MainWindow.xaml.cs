@@ -14,6 +14,7 @@ using System.Windows.Shapes;
 
 using System.IO;
 using System.Globalization;
+using System.Transactions;
 
 namespace Test1
 {
@@ -212,9 +213,20 @@ namespace Test1
         }
         */
 
+        //EnterpriseServicesInteropOption button handler
+        private void InputTextBox_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+        {
+            if (e.Key == System.Windows.Input.Key.Enter)
+            {
+                Confirm_Main_Loop(sender, e);
+                InputTextBox.Clear();
+                e.Handled = true;
+            }
+        }
         /// <summary>
         /// Prints the inital text into the benchmark window.
         /// </summary>
+        /// 
         private void BenchmarkSwitch(object sender, RoutedEventArgs e)
         {
             AsmProxy asmP = new AsmProxy();
