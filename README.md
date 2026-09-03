@@ -38,11 +38,11 @@ Nostromo Escape is a survival text game, where player must escape from the ship 
 ![Very cool GUI](media/GUI1.png)
 
 Interface consists of:
-1 "Confirm" Button - In choices automaticaly chooses accept-option
-2 "Refuse" Button - In choices automaticaly chooses decline-option
-3 "CORE STAT" Button - Turns on benchmark mode
-4 Main panel (left corner) - Displays information
-5 Input panel (right corner) - Needed for command input. After each keyword, ENTER should be pressed
+1. "Confirm" Button - In choices automaticaly chooses accept-option
+2. "Refuse" Button - In choices automaticaly chooses decline-option
+3. "CORE STAT" Button - Turns on benchmark mode
+4. Main panel (left corner) - Displays information
+5. Input panel (right corner) - Needed for command input. After each keyword, ENTER should be pressed
 
 ### Gameplay
 ![Fantastic game process](media/GUI2.PNG)
