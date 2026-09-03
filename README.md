@@ -23,27 +23,37 @@
 ## Project Overview
 Nostromo Escape is a survival text game, where player must escape from the ship via finding 3 fuel units and evacuating through the escape pod. However, player is not alone on ship. Alien is folowing through out the map. Player must avoid any kontakt with it at any cost.
 
-# Map
-##########################################################################
-######################################.........###########################
-######################......#########..HYPER....##########################
-#####################.MOTHER.########...VAULT...+.......##################
-######################.....-#########...........+.........################
-#####################+++##############.........########....###############
-####################...#################################...###############
-###################+..##################################+++###############
-##############.....++#######.........##################.....##############
-#-..................#######...........###############.........###..L.R.###
-#........BRIDGE.....+.....+...GALLEY..+.............+..J.A-2....+...*---##
-#...--..............+.....+...........+.............+.........###...+WC###
-########..........++#######...........###########-####.......#####-.+.####
-#################+....#######.......#############...####+++###############
-###################.....#######...##############.....-##...######.ESC.-###
-#####################.....#####...#############+......##.......+..PODS..##
-#######################.....###...########....MEDBAY.-##-..#####.......###
-#########################....+#+++##########.........+.-...###############
-###########################.++......###########++##+++...#################
-############################..........+....CORRIDOR....###################
-############################..J.A-1...+............-######################
-############################........-#####################################
-##########################################################################
+### Features  
+* Logic is written on MASM
+* Interface based on WPF (C#)
+* Oldschool GUI (Underscaling style)
+* Quick-time-events
+* Time-driven events
+* Random events
+
+### Map
+!(Very cool map in ASCII)[media/map.PNG]
+
+### GUI
+!(Very cool GUI)[media/GUI2.png]
+
+Interface consists of:
+1 "Confirm" Button - In choices automaticaly chooses accept-option
+2 "Refuse" Button - In choices automaticaly chooses decline-option
+3 "CORE STAT" Button - Turns on benchmark mode
+4 Main panel (left corner) - Displays information
+5 Input panel (right corner) - Needed for command input. After each keyword, ENTER should be pressed
+
+### Gameplay
+!(Fantastic game process)[media/GUI2.PNG]
+
+To start game, press "Confirm" or "Refuse" button on GUI.
+Player will spawn in room 0. In order to travel through out the ship, player have to enter the number of available room in input pannel.
+
+Game is event-driven. That means player may experience random effects in entrance to a room. In the same way, player can gain fuel, which is needed to escape. After finding 3 fuel units, player have an access to escape option via pod.
+
+However, player Health is limited by Hit Points. They can be lost by events and encounters with an alien. Alien may be randomly found in rooms and almost every such encounter is deadly. After the last Hit Point is lost, game finishes.
+
+Additionaly, there is Water Mechanic. Some events drain it. If it is imposible to do so, player`s Hit Points will be reduced.
+
+
